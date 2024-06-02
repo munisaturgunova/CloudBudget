@@ -1,32 +1,46 @@
 import clsx from "clsx";
 import cn from "./style.module.scss";
-
-export const Title1 = (props,text) => {
+  function Title1(text) {
     return (
-      <h1 className= {clsx(cn["title1"])} {...props}>
+      <h1 className= {clsx(cn["title1"])}>
         {text}
       </h1>
     );
-  };
-export const Title2 = (props,text) => {
+  }
+  function Title2(text) {
     return (
-      <h2 className= {clsx(cn["title2"])} {...props}>
+      <h2 className= {clsx(cn["title2"])}>
         {text}
       </h2>
     );
-  };
-
-  export const Paragraph1 = (props,text) => {
+  }
+  function Title3(text) {
     return (
-    <h4 className={clsx(cn["paragraph1"])} {...props}>
+      <h1 className= {clsx(cn["title3"])}>
+        {text}
+      </h1>
+    );
+  }
+  function Paragraph1(text) {
+    return (
+      <h4 className={clsx(cn["paragraph1"])}>
         {text}
       </h4>
     );
-  };
-export const Paragraph2 = (props,text) => {
+  }
+  function Paragraph2(text) {
     return (
-      <h6 className={clsx(cn["paragraph2"])} {...props}>
+      <h6 className={clsx(cn["paragraph2"])}>
         {text}
       </h6>
     );
-  };
+  }
+  function Paragraph3(text) {
+    return (
+      <h4 className={clsx(cn["paragraph3"])}>
+        {text}
+      </h4>
+    );
+  }
+  export {Title1, Title2,Title3, Paragraph1,Paragraph2,Paragraph3};
+  
