@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import cn from "./style.module.scss";
+import { PrimaryButton } from "../../../Button";
 
 function Nav() {
   return (
@@ -17,7 +18,7 @@ function Nav() {
                 <li><a href="#">ВОЙТИ</a></li>
             </ul>
         </div>
-        <button>ВОЙТИ</button>
+        <PrimaryButton/>
 
 
       </nav>
