@@ -1,4 +1,3 @@
-import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function Layout(props) {
@@ -6,7 +5,7 @@ function Layout(props) {
 
   return (
     <>
-      <Nav />
+      
       {children}
       <Footer />
     </>
