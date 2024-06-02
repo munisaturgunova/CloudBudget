@@ -17,7 +17,7 @@ function Nav() {
                 <li><a href="#">ВОЙТИ</a></li>
             </ul>
         </div>
-        <button>ВОЙТИ</button>
+        
 
 
       </nav>
