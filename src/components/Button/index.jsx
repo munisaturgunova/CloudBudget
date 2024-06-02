@@ -4,7 +4,7 @@ import cn from "./style.module.scss";
 export const PrimaryButton = (props) => {
   return (
     <button className= {clsx(cn["primary-button"])} {...props}>
-      {props.children}
+      ВХОД
     </button>
   );
 };
@@ -12,7 +12,7 @@ export const PrimaryButton = (props) => {
 export const SecondaryButton = (props) => {
   return (
     <button className={clsx(cn["secondary-button"])} {...props}>
-      {props.children}
+      ОТПРАВИТЬ
     </button>
   );
 };
