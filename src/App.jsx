@@ -1,5 +1,4 @@
-import Layout from './components/Layout'
-import Showcase from './components/Showcase'
+import HomePage from './components/Home-page'
 import './App.css'
 
 function App() {
@@ -7,8 +6,7 @@ function App() {
 
   return (
     <>
-      <Showcase/>
-      <Layout/>
+      <HomePage/>
     </>
   )
 }
