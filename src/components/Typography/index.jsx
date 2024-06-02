@@ -42,5 +42,14 @@ import cn from "./style.module.scss";
       </h4>
     );
   }
-  export {Title1, Title2,Title3, Paragraph1,Paragraph2,Paragraph3};
+  
+  function Link(text){
+    return(
+      <div className={clsx(cn["link"])}>
+        <a href=""> {text}</a>
+      </div>
+      
+    );
+  }
+  export {Title1, Title2,Title3, Paragraph1,Paragraph2,Paragraph3, Link};
   
