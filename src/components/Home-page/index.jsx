@@ -5,6 +5,7 @@ import { Paragraph1 } from "../Typography";
 import { Link } from "../Typography";
 import Img from "../images";
 import CartComponent from "../Card-component";
+import TexCart from "../Tex-card";
 import clsx from "clsx";
 import cn from "./style.module.scss";
 
@@ -42,7 +43,9 @@ function HomePage() {
 
           </div>
        </div>
+       <TexCart/>
        <Layout/>
+
     </div>
   );
 }
