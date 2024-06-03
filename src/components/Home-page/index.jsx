@@ -13,7 +13,6 @@ function HomePage() {
   return (
     <div className={clsx(cn["home-page"])}>
        <Showcase/>
-       <Layout/>
        <div className={clsx(cn["section1"])}>
             <div className={clsx(cn["section1_div1"])}>
             {Title1('Простое приложение для управления бюджетом')}
@@ -24,7 +23,26 @@ function HomePage() {
             <Img url={"/img1.png"}/>
             </div>
        </div>
-      
+
+       <div className={clsx(cn["section2"])}>
+          {Title1('Возможности')} <br />
+          <div className={clsx(cn["section2_carts"])}>
+          <div className={clsx(cn["section2_cart"])}>
+             <Img url={"/Bg (1).png"}/>
+             <CartComponent/>
+          </div>
+          <div className={clsx(cn["section2_cart"])}>
+             <Img url={"/Bg (2).png"}/>
+             <CartComponent/>
+          </div>
+          <div className={clsx(cn["section2_cart"])}>
+             <Img url={"/Bg (3).png"}/>
+             <CartComponent/>
+          </div>
+
+          </div>
+       </div>
+       <Layout/>
     </div>
   );
 }
