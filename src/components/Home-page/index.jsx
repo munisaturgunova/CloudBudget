@@ -8,6 +8,8 @@ import CartComponent from "../Card-component";
 import TexCart from "../Tex-card";
 import { Title3 } from "../Typography";
 import { Paragraph3 } from "../Typography";
+import Input from "../Input";
+import { SecondaryButton } from "../Button";
 import clsx from "clsx";
 import cn from "./style.module.scss";
 
@@ -62,7 +64,21 @@ function HomePage() {
          <Img url={"/Video_bg.png"}/>
        </div>
        </div>
+       <div className={clsx(cn["section5"])}>
+       <div className={clsx(cn["section5_div1"])}>
+          {Title1('Напишите нам')}  <br /> <br />
+          {Paragraph1('Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.')}
+        </div>
+        <div className={clsx(cn["section5_div2"])}>
+         <form action="">
+         <Input type={"text"} placeholder={"Имя"}/>
+          <Input type={"number"} placeholder={"Телефон"}/>
+          <SecondaryButton/>
+         </form>
+        </div>
+       </div>
        <Layout/>
+       <br /><br /><br /><br />
 
     </div>
   );
