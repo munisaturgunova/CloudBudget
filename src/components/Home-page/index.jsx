@@ -4,6 +4,7 @@ import { Title1 } from "../Typography";
 import { Paragraph1 } from "../Typography";
 import { Link } from "../Typography";
 import Img from "../images";
+import CartComponent from "../Card-component";
 import clsx from "clsx";
 import cn from "./style.module.scss";
 
@@ -23,6 +24,7 @@ function HomePage() {
             <Img url={"/img1.png"}/>
             </div>
        </div>
+
        <div className={clsx(cn["section2"])}>
           {Title1('Возможности')} <br />
           <div className={clsx(cn["section2_carts"])}>
@@ -34,6 +36,7 @@ function HomePage() {
 
           </div>
        </div>
+      
     </div>
   );
 }
