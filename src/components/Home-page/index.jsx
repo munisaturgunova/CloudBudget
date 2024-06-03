@@ -43,7 +43,10 @@ function HomePage() {
 
           </div>
        </div>
-       <TexCart/>
+       <div className={clsx(cn["section3"])}>
+       {Title1('Технологии')} <br /> 
+        <TexCart/>
+       </div>
        <Layout/>
 
     </div>
