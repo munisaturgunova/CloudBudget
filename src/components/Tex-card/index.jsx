@@ -2,9 +2,12 @@ import clsx from "clsx";
 import cn from "./style.module.scss";
 import { Title2 } from "../Typography";
 import { Paragraph2 } from "../Typography";
+import { Title1 } from "../Typography";
 
 function TexCart (){
     return(
+        <>
+               {Title1('Технологии')}  
         <span className={clsx(cn["box"])}>
         <div className={clsx(cn["TexCart"])}>
         <img src="/Frame 4 (9).png" alt="" />
@@ -32,7 +35,7 @@ function TexCart (){
             <div className={clsx(cn["text"])}>{Title2('CSV  Отчеты')}
             {Paragraph2('Скачивайте ваши отчеты в удобном формате CSV')}</div>
         </div>
-        </span>
+        </span></>
     )
 }
 export default TexCart;
