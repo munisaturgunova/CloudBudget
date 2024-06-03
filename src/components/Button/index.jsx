@@ -11,7 +11,7 @@ export const PrimaryButton = (props) => {
 
 export const SecondaryButton = (props) => {
   return (
-    <button className={clsx(cn["secondary-button"])} {...props}>
+    <button className={clsx(cn["secondary_button"])} {...props}>
       ОТПРАВИТЬ
     </button>
   );
