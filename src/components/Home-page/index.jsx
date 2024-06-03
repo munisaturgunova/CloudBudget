@@ -24,7 +24,7 @@ function HomePage() {
             <Img url={"/img1.png"}/>
             </div>
        </div>
-      <CartComponent/>
+      
     </div>
   );
 }
