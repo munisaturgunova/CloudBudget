@@ -3,7 +3,6 @@ import Layout from "../Layout";
 import { Title1 } from "../Typography";
 import { Paragraph1 } from "../Typography";
 import { Link } from "../Typography";
-import { displayImage } from "../images";
 import clsx from "clsx";
 import cn from "./style.module.scss";
 
