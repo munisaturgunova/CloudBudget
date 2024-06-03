@@ -23,6 +23,17 @@ function HomePage() {
             <Img url={"/img1.png"}/>
             </div>
        </div>
+       <div className={clsx(cn["section2"])}>
+          {Title1('Возможности')} <br />
+          <div className={clsx(cn["section2_carts"])}>
+          <div className={clsx(cn["section2_cart"])}>
+             <Img url={"/Bg (1).png"}/>
+             
+
+             </div>
+
+          </div>
+       </div>
     </div>
   );
 }
