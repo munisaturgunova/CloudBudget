@@ -3,6 +3,7 @@ import Layout from "../Layout";
 import { Title1 } from "../Typography";
 import { Paragraph1 } from "../Typography";
 import { Link } from "../Typography";
+import Img from "../images";
 import clsx from "clsx";
 import cn from "./style.module.scss";
 
@@ -19,7 +20,7 @@ function HomePage() {
             {Link('Узнать подробнее')}
             </div>
             <div className={clsx(cn["section1_div2"])}>
-            
+            <Img url={"/img1.png"}/>
             </div>
        </div>
     </div>
